@@ -1,0 +1,38 @@
+body {
+  /* background-color: gray; */
+  /* background-image: url("https://i.pinimg.com/originals/f2/b3/0d/f2b30db3c8bc87486f5b452dd6e6d300.jpg") */
+}
+
+.box {
+  border: 2px solid red;
+  border-radius: 20px;
+  box-shadow: 10px;
+  width: 50%;
+  text-align: center;
+  margin-top: 10%;
+  padding: 20px;
+
+  /* background-color: rgba(137, 137, 152, 0.507); */
+}
+.location {
+  display: flex;
+  /* border: 2px solid rgb(7, 7, 7); */
+  margin-right: 100px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.streat {
+  /* border: 2px solid green; */
+  padding: 20px;
+  font-size: 3em;
+  margin: 30px;
+}
+.cityName {
+  /* border: 2px solid yellow; */
+
+  font-size: 2rem;
+}
+
+.layout {
+}
