@@ -1,5 +1,4 @@
 import * as React from "react";
-import Box from "@mui/material/Box";
 import TextField from "@mui/material/TextField";
 
 const Layout = () => {
@@ -12,14 +11,12 @@ const Layout = () => {
       const res = await fetch(`${url}${search}&apiKey=${apiKey}`);
       const data = await res.json();
       setCity(data.main);
-      console.log(city);
     }
     getWeather();
   }, [search]);
 
   function handleChange(e) {
     setSearch(e.target.value);
-    console.log(city);
   }
   return (
     <center className="layout">
@@ -52,7 +49,7 @@ const Layout = () => {
                 <i>ºC</i>
               </h1>
               <p>
-                min-temp: {city.temp_min}ºC max-temp:{city.temp_max}ºC
+                min-temp: {city.temp_min}ºc max-temp:{city.temp_max}ºc
               </p>
             </div>
           </div>
