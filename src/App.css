@@ -1,6 +1,10 @@
 body {
-  background-color: rgba(212, 228, 255, 0.769);
-  /* background-image: url("https://i.pinimg.com/originals/f2/b3/0d/f2b30db3c8bc87486f5b452dd6e6d300.jpg") */
+  /* background-color: rgba(212, 228, 255, 0.769); */
+  /* background-image: url("https://i.pinimg.com/originals/f2/b3/0d/f2b30db3c8bc87486f5b452dd6e6d300.jpg"); */
+  background-image: url("https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_1280.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  
 }
 
 .box {
@@ -11,6 +15,7 @@ body {
   text-align: center;
   margin-top: 10%;
   padding: 20px;
+  /* background-color: lightskyblue; */
 
   /* background-color: rgba(137, 137, 152, 0.507); */
 }
@@ -32,4 +37,10 @@ body {
   /* border: 2px solid yellow; */
 
   font-size: 4rem;
+}
+.header {
+  text-align: center;
+  color: white;
+}
+h1 {
 }
