@@ -1,5 +1,5 @@
 body {
-  /* background-color: gray; */
+  background-color: rgba(212, 228, 255, 0.769);
   /* background-image: url("https://i.pinimg.com/originals/f2/b3/0d/f2b30db3c8bc87486f5b452dd6e6d300.jpg") */
 }
 
@@ -31,8 +31,5 @@ body {
 .cityName {
   /* border: 2px solid yellow; */
 
-  font-size: 2rem;
-}
-
-.layout {
+  font-size: 4rem;
 }
