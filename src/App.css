@@ -1,29 +1,22 @@
 body {
-  /* background-color: rgba(212, 228, 255, 0.769); */
-  /* background-image: url("https://i.pinimg.com/originals/f2/b3/0d/f2b30db3c8bc87486f5b452dd6e6d300.jpg"); */
-  background-image: url("https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079_1280.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  
+  background-color: rgb(159, 159, 159);
 }
-
 .box {
   border: 2px solid red;
   border-radius: 20px;
   box-shadow: 10px;
   width: 50%;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 7%;
   padding: 20px;
-  /* background-color: lightskyblue; */
+  overflow: auto;
+  background-color: lightgray;
 
   /* background-color: rgba(137, 137, 152, 0.507); */
 }
 .location {
   display: flex;
   /* border: 2px solid rgb(7, 7, 7); */
-  margin-right: 100px;
-  margin: 10px;
   justify-content: center;
   align-items: center;
 }
@@ -40,7 +33,24 @@ body {
 }
 .header {
   text-align: center;
-  color: white;
+  color: black;
 }
-h1 {
+#outlined-basic {
+  font-size: x-large;
+}
+@media (max-width: 900px) {
+  .location {
+    display: flex;
+    flex-direction: column;
+  }
+  .cityName {
+    /* border: 2px solid yellow; */
+
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
 }

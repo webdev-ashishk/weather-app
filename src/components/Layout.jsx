@@ -29,6 +29,7 @@ const Layout = () => {
             variant="outlined"
             onChange={handleChange}
             value={search}
+            placeholder="city name ..."
           />
         </div>
 
