@@ -11,6 +11,7 @@ const Layout = () => {
       const res = await fetch(`${url}${search}&apiKey=${apiKey}`);
       const data = await res.json();
       setCity(data.main);
+      console.log(data.main);
     }
     getWeather();
   }, [search]);
@@ -32,7 +33,7 @@ const Layout = () => {
         </div>
 
         {!city ? (
-          <p>no data found</p>
+          <p>write other city name</p>
         ) : (
           <div className="info">
             <div className="location">
@@ -48,9 +49,17 @@ const Layout = () => {
                 {city.temp}
                 <i>ºC</i>
               </h1>
-              <p>
-                min-temp: {city.temp_min}ºc max-temp:{city.temp_max}ºc
-              </p>
+              <div>
+                <p>
+                  <b>feels_like: {city.feels_like}</b>
+                </p>
+                <p>
+                  <b>Humidity: {city.humidity} %</b>
+                </p>
+                <p>
+                  min-temp: {city.temp_min}ºc max-temp:{city.temp_max}ºc
+                </p>
+              </div>
             </div>
           </div>
         )}
