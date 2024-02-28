@@ -1,7 +1,7 @@
 # List of technology used
 
-> 1. react >>> vitejs
-> 2. Every time rendered <App/> component accept with wrong routess
+> 1. Frontend:React.js, JavaScript, CSS , Material UI
+> 2. Backend: OpenWeather API
 
 # SEO tasks
 
